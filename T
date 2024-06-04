@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ Querés ser mi novia? ♥</title>
+  <style>
+    .body {
+      background-color: black;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 50%;
+      max-width: 512px;
+      border-radius: 10%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Querés ser mi novia? ♥</h1>
+  <img src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-anime-of-love-png-image_13149584.png" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">si ♡</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button id="no">No, no quiero :(</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞 I love u 💞');
+      location.href = 'https://youtu.be/8QBiZSea8EM?si=pJROrGsLnUyRourG';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
