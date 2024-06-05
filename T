@@ -39,7 +39,6 @@
     const vuttonNo = document.getElementById('no');
 
     const zomosNobios = () => {
-      alert('💞 I love u 💞');
       location.href = 'https://youtu.be/8QBiZSea8EM?si=pJROrGsLnUyRourG';
     };
 
